@@ -1,3 +1,7 @@
+require(ggplot2)
+library(ggridges)
+require(ggh4x)
+
 fams <- c(
   #'austronesian',
   'dravidian',
@@ -16,6 +20,48 @@ fam.labels <- c(
   'Uto-Aztecan'
 )
 
+betas <- readRDS('all_betas_full.RDS')
+
+upper <- c()
+lower <- c()
+medians <- c()
+fam.ID <- c()
+concept.ID <- c()
+rate.type <- c()
+
+for (i in 1:length(fams)) {
+  betas.i <- betas[[i]]
+  concepts <- readLines(paste('concept_lists/',fams[i],'.txt',sep=''))
+  K = (ncol(betas.i)/6)-1
+  N <- nrow(betas.i)
+  for (k in 1:K) {
+    upper <- c(upper,quantile(exp(betas.i[,1] + betas.i[,1+(k*6)] - (betas.i[,2] + betas.i[,2+(k*6)])),.975))
+    lower <- c(lower,quantile(exp(betas.i[,1] + betas.i[,1+(k*6)] - (betas.i[,2] + betas.i[,2+(k*6)])),.025))
+    medians <- c(medians,median(exp(betas.i[,1] + betas.i[,1+(k*6)] - (betas.i[,2] + betas.i[,2+(k*6)]))))
+    fam.ID <- c(fam.ID,fam.labels[i])
+    concept.ID <- c(concept.ID,concepts[k])
+    rate.type <- c(rate.type,'birth.rate')
+    
+    upper <- c(upper,quantile(exp(betas.i[,6] + betas.i[,6+(k*6)] - (betas.i[,4] + betas.i[,4+(k*6)])),.975))
+    lower <- c(lower,quantile(exp(betas.i[,6] + betas.i[,6+(k*6)] - (betas.i[,4] + betas.i[,4+(k*6)])),.025))
+    medians <- c(medians,median(exp(betas.i[,6] + betas.i[,6+(k*6)] - (betas.i[,4] + betas.i[,4+(k*6)]))))
+    fam.ID <- c(fam.ID,fam.labels[i])
+    concept.ID <- c(concept.ID,concepts[k])
+    rate.type <- c(rate.type,'gain.rate')
+    
+    upper <- c(upper,quantile(exp(betas.i[,5] + betas.i[,5+(k*6)] - (betas.i[,3] + betas.i[,3+(k*6)])),.975))
+    lower <- c(lower,quantile(exp(betas.i[,5] + betas.i[,5+(k*6)] - (betas.i[,3] + betas.i[,3+(k*6)])),.025))
+    medians <- c(medians,median(exp(betas.i[,5] + betas.i[,5+(k*6)] - (betas.i[,3] + betas.i[,3+(k*6)]))))
+    fam.ID <- c(fam.ID,fam.labels[i])
+    concept.ID <- c(concept.ID,concepts[k])
+    rate.type <- c(rate.type,'death.rate')
+    
+  }
+}
+
+CI.df <- data.frame(upper,lower,medians,fam.ID,concept.ID,rate.type)
+
+saveRDS(file='CIs.RDS',CI.df)
 
 CI.df <- readRDS(file='CIs.RDS')
 

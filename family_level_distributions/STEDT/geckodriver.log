@@ -1,0 +1,205 @@
+1569963497949	geckodriver	INFO	geckodriver 0.19.1
+1569963497958	geckodriver	INFO	Listening on 127.0.0.1:56211
+1569963499349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.k981Z9dWMqpQ"
+1569963499959	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569963499959	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569963499960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569963499960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569963500057	Marionette	TRACE	Received observer notification profile-after-change
+1569963500291	Marionette	TRACE	Received observer notification command-line-startup
+1569963500291	Marionette	TRACE	Received observer notification nsPref:changed
+1569963500291	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1569963500700	Marionette	TRACE	Received observer notification toplevel-window-ready
+1569963502960	Marionette	TRACE	Received observer notification marionette-startup-requested
+1569963502960	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1569963502984	Marionette	TRACE	All scripts recorded.
+1569963502985	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1569963502986	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1569963502987	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1569963502987	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1569963502988	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1569963502988	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1569963502988	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1569963502990	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1569963502991	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1569963502991	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1569963503088	Marionette	INFO	Listening on port 56222
+1569963503088	Marionette	DEBUG	Remote service is active
+1569963503114	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56302
+1569963503118	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1569963503119	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:503:20\n"},null]
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8637, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1569963524743	geckodriver	INFO	geckodriver 0.19.1
+1569963524747	geckodriver	INFO	Listening on 127.0.0.1:56303
+1569963525916	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.D993x26mwinO"
+1569963526509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569963526509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569963526509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569963526509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569963526605	Marionette	TRACE	Received observer notification profile-after-change
+1569963526745	Marionette	TRACE	Received observer notification command-line-startup
+1569963526745	Marionette	TRACE	Received observer notification nsPref:changed
+1569963526746	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1569963527063	Marionette	TRACE	Received observer notification toplevel-window-ready
+1569963528385	Marionette	TRACE	Received observer notification marionette-startup-requested
+1569963528385	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1569963528393	Marionette	TRACE	All scripts recorded.
+1569963528393	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1569963528393	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1569963528394	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1569963528394	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1569963528394	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1569963528394	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1569963528394	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1569963528395	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1569963528395	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1569963528395	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1569963528435	Marionette	INFO	Listening on port 56310
+1569963528435	Marionette	DEBUG	Remote service is active
+1569963528446	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56368
+1569963528448	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1569963528448	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:503:20\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1569963540957	geckodriver	INFO	geckodriver 0.19.1
+1569963540960	geckodriver	INFO	Listening on 127.0.0.1:56371
+1569963542057	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.99dPlPPJcKT1"
+1569963542507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569963542507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569963542507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569963542507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569963542583	Marionette	TRACE	Received observer notification profile-after-change
+1569963542682	Marionette	TRACE	Received observer notification command-line-startup
+1569963542682	Marionette	TRACE	Received observer notification nsPref:changed
+1569963542682	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1569963542921	Marionette	TRACE	Received observer notification toplevel-window-ready
+1569963544069	Marionette	TRACE	Received observer notification marionette-startup-requested
+1569963544070	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1569963544134	Marionette	TRACE	All scripts recorded.
+1569963544134	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1569963544134	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1569963544135	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1569963544135	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1569963544135	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1569963544135	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1569963544135	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1569963544135	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1569963544136	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1569963544136	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1569963544169	Marionette	INFO	Listening on port 56378
+1569963544169	Marionette	DEBUG	Remote service is active
+1569963544237	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56430
+1569963544239	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1569963544240	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:503:20\n"},null]
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1569963793492	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.TZ74Gbm2nlCO"
+1569963794997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569963794997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569963794997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569963794997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569963797245	Marionette	INFO	Listening on port 56534
+1569963797300	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9990, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1569964110036	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.3D3PLVYWGIDA"
+1569964111205	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569964111206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569964111206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569964111206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569964113014	Marionette	INFO	Listening on port 56657
+1569964113058	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1569966418881	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.tlRYWMCyF0nH"
+1569966419715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569966419716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569966419716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569966419716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569966421892	Marionette	INFO	Listening on port 56823
+1569966421906	Marionette	WARN	TLS certificate errors will be ignored for this session
+1569966639289	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.LJtucOWmre9Z"
+1569966640110	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569966640110	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569966640111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569966640111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569966642916	Marionette	INFO	Listening on port 56895
+1569966642979	Marionette	WARN	TLS certificate errors will be ignored for this session
+1569966788183	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.YCaZdrMojB2N"
+1569966789541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569966789542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569966789542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569966789542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569966792759	Marionette	INFO	Listening on port 57090
+1569966792839	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10319, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1569966866189	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.t6evH26uaroR"
+1569966867052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569966867052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569966867052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569966867053	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569966868908	Marionette	INFO	Listening on port 57263
+1569966868952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1569967333755	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.qMim5hVXbGxI"
+1569967334481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569967334481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569967334481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569967334481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569967337272	Marionette	INFO	Listening on port 57456
+1569967337335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1569967750672	Marionette	INFO	Stopped listening on port 57263
+1569967755907	Marionette	INFO	Stopped listening on port 57456
+1569997188452	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.bk0AqDKPY8pN"
+1569997189785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569997189785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569997189785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569997189785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569997192143	Marionette	INFO	Listening on port 57919
+1569997192154	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10657, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1569997213979	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0v/p86plsln2_vd7dz6pk6k0h500000gn/T/rust_mozprofile.8WASmmyBRtKK"
+1569997214563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569997214563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569997214563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569997214563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569997216185	Marionette	INFO	Listening on port 57993
+1569997216230	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570006395298	Marionette	INFO	Stopped listening on port 57993

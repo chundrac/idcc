@@ -48,3 +48,16 @@ for (i in 1:length(fams)) {
 }
 
 saveRDS(all.betas,file='all_betas_full.RDS')
+
+all.betas <- readRDS('all_betas_full.RDS')
+
+set.seed(1234)
+
+all.betas.thinned <- list()
+
+for (i in 1:length(all.betas)) {
+  inds = sample(1:dim(all.betas[[i]])[1],1000)
+  all.betas.thinned[[i]] <- all.betas[[i]][inds,]
+}
+
+saveRDS(all.betas.thinned,file='all_betas_full_thinned.RDS')
