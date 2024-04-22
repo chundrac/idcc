@@ -42,6 +42,7 @@ Rscript process_data.R uralic
 ./run_models.sh
 Rscript get_params.R
 Rscript make_histograms.R
+cd ..
 
 git clone https://github.com/chundrac/linguisticCharacterMatrices.git
 cp -r linguisticCharacterMatrices/lexibank .
