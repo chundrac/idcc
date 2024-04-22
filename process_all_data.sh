@@ -36,7 +36,9 @@ cd family_level_distributions
 python3 generate_counts.py
 
 cd cognate_models
-Rscript process_data.R
+Rscript process_data.R austronesian
+Rscript process_data.R semitic
+Rscript process_data.R uralic
 ./run_models.sh
 Rscript get_params.R
 Rscript make_histograms.R
