@@ -4,6 +4,8 @@ Code for manuscript "Multiple evolutionary pressures shape identical consonant a
 
 Models were run on the University of Zurich's Science Cluster using the Slurm workload management system and the Rstan anaconda environment (https://anaconda.org/conda-forge/r-rstan).
 
+The following shell script runs all data processing and model fitting scripts:
+
 ```
-./run_everything.sh
+./process_all_data.sh
 ```
