@@ -1,4 +1,4 @@
-# IDCC
+# Multiple evolutionary pressures shape identical consonant avoidance in the world’s languages
 
 Code for manuscript "Multiple evolutionary pressures shape identical consonant avoidance in the world’s languages"
 
