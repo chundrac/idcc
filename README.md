@@ -9,3 +9,7 @@ The following shell script runs all data processing and model fitting scripts:
 ```
 ./process_all_data.sh
 ```
+
+Code along with processed data and model fits can be found at the following link:
+
+[![DOI](https://zenodo.org/records/11538675)](https://zenodo.org/records/11538675)
