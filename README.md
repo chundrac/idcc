@@ -12,4 +12,5 @@ The following shell script runs all data processing and model fitting scripts:
 
 Code along with processed data and model fits can be found at the following link:
 
-[![DOI](https://zenodo.org/records/11538675)](https://zenodo.org/records/11538675)
+<a href="https://doi.org/10.5281/zenodo.11538675"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11538675.svg" alt="DOI"></a>
+
